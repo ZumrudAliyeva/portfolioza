@@ -127,7 +127,7 @@ export const Miow = styled.img`
   width: 70%;
   height: auto;
   @media screen and (max-width: 768px) {
-    width: 60%;
+    width: 61%;
   }
 `;
 
@@ -151,8 +151,8 @@ export const ContactInfo = styled.div`
   }
 
   @media screen and (max-width: 768px) {
-    padding: 22px 15px;
-    width: 60%;
+    padding: 22px 5px;
+    width: 61%;
     font-size: 0.8rem;
   }
 `;
