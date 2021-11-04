@@ -136,10 +136,6 @@ export const ContactInfo = styled.div`
   height: auto;
   padding: 42px 30px;
   text-align: center;
-  /* position: absolute;
-  top: 22px;
-  left: 22px; */
-  /* z-index: 100; */
   background: ${(p) => p.theme.glassColor};
   box-shadow: ${(p) => p.theme.shadow};
   backdrop-filter: blur(5px);
