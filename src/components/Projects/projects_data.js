@@ -1,10 +1,10 @@
 export const projects_data = [
     {
-        name:'Reva onepage website',
+        name:'Tartine bakery',
         image:'',
-        github_url: 'https://github.com/ZumrudAliyeva/Reva-onepage-website',
-        deployed_url: 'reva-simple-template.surge.sh',
-        category: ['html/css','javascript']
+        github_url: 'https://github.com/ZumrudAliyeva/Tartine-bakery-with-local-strorage',
+        deployed_url: 'http://tartine-bakery-local.surge.sh/',
+        category: ['html/css', 'jquery','local-storage']
     },
     {
         name:'Syring',
@@ -12,13 +12,6 @@ export const projects_data = [
         github_url: 'https://github.com/ZumrudAliyeva/Syring',
         deployed_url: 'https://zumrudaliyeva.github.io/Syring/#',
         category: ['html/css', 'jquery']
-    },
-    {
-        name:'Tartine bakery',
-        image:'',
-        github_url: 'https://github.com/ZumrudAliyeva/Tartine-bakery-with-local-strorage',
-        deployed_url: 'http://tartine-bakery-local.surge.sh/',
-        category: ['html/css', 'jquery','local-storage']
     },
     {
         name:'Tic-Tac-Toe',
@@ -52,7 +45,7 @@ export const projects_data = [
         name:'Google authentication',
         image:'',
         github_url: 'https://github.com/ZumrudAliyeva/auth_test',
-        deployed_url: 'auth-test-app.surge.sh',
+        deployed_url: 'https://auth-test-rho.vercel.app/',
         category: ['react js','firebase']
     }
 ]
