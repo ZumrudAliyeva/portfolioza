@@ -126,6 +126,7 @@ export const MapContainer = styled.div`
 export const Miow = styled.img`
   width: 70%;
   height: auto;
+  mix-blend-mode: difference;
   @media screen and (max-width: 768px) {
     width: 61%;
   }
@@ -141,7 +142,7 @@ export const ContactInfo = styled.div`
   backdrop-filter: blur(5px);
   -webkit-backdrop-filter: blur(5px);
   p {
-    color: #fff;
+    color: ${p=>p.theme.textColor};
     font-weight: 300;
     margin-bottom: 10px;
   }
