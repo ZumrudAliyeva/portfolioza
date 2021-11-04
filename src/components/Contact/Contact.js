@@ -1,8 +1,9 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { Container, FlexRow, PageTitle, Title } from "../Main.styled";
-import {ContactContainer, FormContainer, ContactForm, SubmitButton, ResultDiv, ContactPageTitle, MapContainer, ContactInfo} from "./Contact.styled"
-import Map from "../Map";
+import {ContactContainer, FormContainer, ContactForm, SubmitButton, ResultDiv, ContactPageTitle, MapContainer, Miow, ContactInfo} from "./Contact.styled"
+// import Map from "../Map";
+import miow from "../../assets/miow.svg"
 
 const Result = () => {
     return (
@@ -78,8 +79,8 @@ const Contact = () => {
         </ContactForm>
         </FormContainer>
         <MapContainer>
-          {/* <Miow alt="" src={miow}/> */}
-          <Map/>
+          <Miow alt="" src={miow}/>
+          {/* <Map/> */}
           <ContactInfo>
             <p>Address: Baku, Azerbaijan</p>
             <p>Email: zumrudaliyeva13@gmail.com</p>

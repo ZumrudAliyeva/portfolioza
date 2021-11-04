@@ -109,33 +109,37 @@ export const MapContainer = styled.div`
   padding-right: 30px;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
+  justify-content: center;
+  align-items: center;
   margin-left: auto;
   position: relative;
   overflow: hidden !important;
 
   @media screen and (max-width: 768px) {
     width: 100%;
-    margin: 0 auto;
     margin-top: 30px;
-    padding-right: 0;
+    align-items: flex-end;
+    padding-bottom: 30px;
   }
 `;
 
 export const Miow = styled.img`
-  width: 100%;
+  width: 70%;
   height: auto;
+  @media screen and (max-width: 768px) {
+    width: 60%;
+  }
 `;
 
 export const ContactInfo = styled.div`
-  width: auto;
+  width: 70%;
   height: auto;
   padding: 42px 30px;
-  position: absolute;
+  text-align: center;
+  /* position: absolute;
   top: 22px;
-  left: 22px;
-  z-index: 100;
+  left: 22px; */
+  /* z-index: 100; */
   background: ${(p) => p.theme.glassColor};
   box-shadow: ${(p) => p.theme.shadow};
   backdrop-filter: blur(5px);
@@ -150,9 +154,9 @@ export const ContactInfo = styled.div`
     background: ${(p) => p.theme.gradientColor};
   }
 
-  @media screen and (max-width: 812px) {
+  @media screen and (max-width: 768px) {
     padding: 22px 15px;
-    top: 54px;
+    width: 60%;
     font-size: 0.8rem;
   }
 `;
