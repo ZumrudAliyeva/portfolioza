@@ -1,5 +1,5 @@
 import React from "react";
-import { FooterLeft, Copy, Datetime, FooterContainer,FooterContent, GithubIcon, LinkIcon, Social } from "./Footer.styled";
+import { FooterLeft, Copy, Datetime, FooterContainer,FooterContent, Social } from "./Footer.styled";
 
 const Footer = ({date, time}) => {
   return (

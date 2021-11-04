@@ -6,7 +6,7 @@ import Footer from "./components/Footer/Footer";
 import { useState } from "react";
 import About from "./components/About/About";
 import { ThemeProvider } from "styled-components";
-import { Cursor, darkTheme, lightTheme } from "./components/Main.styled";
+import { darkTheme, lightTheme } from "./components/Main.styled";
 
 const LightTheme = {
   background: "#fff",

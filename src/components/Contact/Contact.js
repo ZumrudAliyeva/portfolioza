@@ -1,8 +1,7 @@
 import React, { useRef, useState } from "react";
 import emailjs from "emailjs-com";
 import { Container, FlexRow, PageTitle, Title } from "../Main.styled";
-import {ContactContainer, FormContainer, ContactForm, SubmitButton, ResultDiv, ContactPageTitle, MapContainer, ContactInfo, Miow} from "./Contact.styled"
-import miow from "../../assets/miow.svg"
+import {ContactContainer, FormContainer, ContactForm, SubmitButton, ResultDiv, ContactPageTitle, MapContainer, ContactInfo} from "./Contact.styled"
 import Map from "../Map";
 
 const Result = () => {

@@ -1,14 +1,12 @@
 import React from "react";
 import {
   HomeContainer,
-  HomeNoise,
   ScrollBtn,
   HomeText,
   HomeTitleOne,
   HomeTitleTwo,
   Wrapper,
 } from "./Home.styled";
-// import noise from "../../assets/noise.png";
 import scrllBlack from "../../assets/scrll_black.png";
 import scrllWhite from "../../assets/scrll_white.png";
 
@@ -22,7 +20,6 @@ const Home = ({ theme, setTheme }) => {
         <HomeTitleTwo>Front-End Web Developer</HomeTitleTwo>
       </Wrapper>
       <HomeText>Welcome to my portfolio</HomeText>
-      {/* <HomeNoise src={noise} alt="" /> */}
       <ScrollBtn
         to="about"
         smooth={true}
