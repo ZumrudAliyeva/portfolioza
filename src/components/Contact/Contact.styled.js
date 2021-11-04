@@ -149,6 +149,9 @@ export const ContactInfo = styled.div`
 
   &:hover {
     background: ${(p) => p.theme.gradientColor};
+    p{
+    color: #fff;
+    }
   }
 
   @media screen and (max-width: 768px) {
