@@ -13,7 +13,7 @@ import {
 } from "./About.styled";
 import AboutItem from "./AboutItem";
 import Img from "../../assets/contact-image.jpg";
-import cv from "../../assets/zumrud_aliyeva_cv.pdf"
+import cv from "../../assets/Zumrud_Aliyeva.pdf"
 
 const About = () => {
   return (
