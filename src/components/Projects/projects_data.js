@@ -1,5 +1,19 @@
 export const projects_data = [
     {
+        name:'Khan Buta Group MMC',
+        image:'',
+        github_url: '',
+        deployed_url: 'https://www.khanbutagroup.az',
+        category: ['html/css', 'react js', 'next js']
+    },
+    {
+        name:'Magna',
+        image:'',
+        github_url: '',
+        deployed_url: 'http://magna.az',
+        category: ['html/css', 'jquery']
+    },
+    {
         name:'Tartine bakery',
         image:'',
         github_url: 'https://github.com/ZumrudAliyeva/Tartine-bakery-with-local-strorage',
