@@ -14,6 +14,13 @@ export const projects_data = [
         category: ['html/css', 'jquery']
     },
     {
+        name:'Bestune',
+        image:'',
+        github_url: '',
+        deployed_url: 'http://bestune.az/',
+        category: ['html/css', 'jquery']
+    },
+    {
         name:'Tartine bakery',
         image:'',
         github_url: 'https://github.com/ZumrudAliyeva/Tartine-bakery-with-local-strorage',
